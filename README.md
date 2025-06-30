@@ -1,4 +1,33 @@
-# K_Means Clustering of Iris Dataset
+#K-Means Clustering on Iris Dataset
 
-Kumpulan data bunga Iris atau kumpulan data Iris Fisher adalah kumpulan data multivariat yang diperkenalkan oleh ahli statistik, ahli eugenika, dan ahli biologi Inggris Ronald Fisher dalam makalahnya tahun 1936 berjudul The use of multiple Measurements in taxonomic problems sebagai contoh analisis diskriminan linier.[1] Kadang-kadang disebut kumpulan data Iris Anderson karena Edgar Anderson mengumpulkan data untuk mengukur variasi morfologi bunga Iris dari tiga spesies yang berkerabat.[2] Dua dari tiga spesies dikumpulkan di Semenanjung Gaspé "semuanya dari padang rumput yang sama, dan dipetik pada hari yang sama dan diukur pada waktu yang sama oleh orang yang sama dengan peralatan yang sama".[3] Makalah Fisher diterbitkan dalam jurnal Annals of Eugenics, yang menimbulkan kontroversi tentang penggunaan terus-menerus kumpulan data Iris untuk mengajarkan teknik statistik saat ini.
+Project ini merupakan implementasi **K-Means Clustering** sederhana menggunakan dataset klasik **Iris**. Dataset ini berisi fitur morfologi bunga seperti panjang dan lebar kelopak dan sepal, yang digunakan untuk mengelompokkan bunga ke dalam klaster tanpa mengetahui label aslinya.
 
+---
+
+##Dataset
+Dataset yang digunakan: `IRIS.csv`  
+Jumlah data: 150 baris  
+Fitur yang digunakan:
+- `sepal_length`
+- `sepal_width`
+- `petal_length`
+- `petal_width`
+
+Label asli (`species`) digunakan untuk evaluasi akhir, **tidak dipakai saat training model**.
+
+---
+
+##Tujuan Proyek
+- Melakukan **unsupervised clustering** (tanpa label) menggunakan algoritma K-Means.
+- Mengelompokkan data bunga iris ke dalam 3 klaster berdasarkan fitur numerik.
+- Membandingkan hasil klasterisasi dengan label asli (`species`).
+- Visualisasi distribusi dan hasil klasterisasi.
+
+---
+
+##Library yang Digunakan
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
