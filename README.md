@@ -1,1 +1,4 @@
-# K_Means
+# K_Means Clustering of Iris Dataset
+
+Kumpulan data bunga Iris atau kumpulan data Iris Fisher adalah kumpulan data multivariat yang diperkenalkan oleh ahli statistik, ahli eugenika, dan ahli biologi Inggris Ronald Fisher dalam makalahnya tahun 1936 berjudul The use of multiple Measurements in taxonomic problems sebagai contoh analisis diskriminan linier.[1] Kadang-kadang disebut kumpulan data Iris Anderson karena Edgar Anderson mengumpulkan data untuk mengukur variasi morfologi bunga Iris dari tiga spesies yang berkerabat.[2] Dua dari tiga spesies dikumpulkan di Semenanjung Gaspé "semuanya dari padang rumput yang sama, dan dipetik pada hari yang sama dan diukur pada waktu yang sama oleh orang yang sama dengan peralatan yang sama".[3] Makalah Fisher diterbitkan dalam jurnal Annals of Eugenics, yang menimbulkan kontroversi tentang penggunaan terus-menerus kumpulan data Iris untuk mengajarkan teknik statistik saat ini.
+
